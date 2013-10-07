@@ -10,15 +10,14 @@
 #import "Character.h"
 #import "Item.h"
 
-@interface CharacterTests : XCTestCase
-
-@end
-
-@implementation CharacterTests {
-
+@interface CharacterTests : XCTestCase {
     NSDictionary *_characterDetailJson;
     Character *_testGuy;
 }
+
+@end
+
+@implementation CharacterTests
 
 - (void)setUp
 {
@@ -34,27 +33,18 @@
     _characterDetailJson = json;
 }
 
-- (void)tearDown
-{
-    [super tearDown];
-    _characterDetailJson = nil;
-    _testGuy = nil;
-}
-
 - (void)testCreateCharacterFromDetailJson
 {
-    Character *testGuy1 = [[Character alloc] initWithCharacterDetailData:_characterDetailJson];
-    XCTAssertNotNil(testGuy1, @"Could not create character from detail json");
-    
-    Character *testGuy2 = [[Character alloc] initWithCharacterDetailData:nil];
-    XCTAssertNotNil(testGuy2, @"Could not create character from nil data");
-    
-    _testGuy = testGuy1;
+    _testGuy = [[Character alloc] initWithCharacterDetailData:_characterDetailJson];
+    XCTAssertNotNil(_testGuy, @"Could not create character from detail json");
 }
 
 
 -(void)testCreateCharacterFromDetailJsonProps
 {
+    _testGuy = [[Character alloc] initWithCharacterDetailData:_characterDetailJson];
+    XCTAssertNotNil(_testGuy, @"Could not create character from detail json");
+    
     XCTAssertEqualObjects(_testGuy.thumbnail, @"borean-tundra/171/40508075-avatar.jpg", @"thumbnail url is wrong");
     XCTAssertEqualObjects(_testGuy.name, @"Hagrel", @"name is wrong");
     XCTAssertEqualObjects(_testGuy.battleGroup, @"Emberstorm", @"battlegroup is wrong");
@@ -71,6 +61,9 @@
 
 -(void)testCreateCharacterFromDetailJsonValidateItems
 {
+    _testGuy = [[Character alloc] initWithCharacterDetailData:_characterDetailJson];
+    XCTAssertNotNil(_testGuy, @"Could not create character from detail json");
+    
     XCTAssertEqualObjects(_testGuy.neckItem.name,@"Stoneheart Choker", @"name is wrong");
     XCTAssertEqualObjects(_testGuy.wristItem.name,@"Vicious Pyrium Bracers", @"name is wrong");
     XCTAssertEqualObjects(_testGuy.waistItem.name,@"Girdle of the Queen's Champion", @"name is wrong");
@@ -92,5 +85,10 @@
     XCTAssertEqualObjects(_testGuy.rangedItem.name,@"Ironfeather Longbow", @"neck name is wrong");
 }
 
+- (void)tearDown
+{
+    _characterDetailJson = nil;
+    _testGuy = nil;
+}
 
 @end
