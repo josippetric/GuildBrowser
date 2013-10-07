@@ -76,15 +76,15 @@
 		F0E5F0721802F37400A72687 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = F0E5F0701802F37400A72687 /* character.json */; };
 		F0E5F0731802F37400A72687 /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = F0E5F0711802F37400A72687 /* guild.json */; };
 		F0E5F0751802F3DE00A72687 /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E5F0741802F3DE00A72687 /* CharacterTests.m */; };
-		F0E5F0761802FE3E00A72687 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC315E9A8DA00B3713E /* AFHTTPClient.m */; };
-		F0E5F0771802FE3E00A72687 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC515E9A8DA00B3713E /* AFHTTPRequestOperation.m */; };
-		F0E5F0781802FE3E00A72687 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC715E9A8DA00B3713E /* AFImageRequestOperation.m */; };
-		F0E5F0791802FE3E00A72687 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC915E9A8DA00B3713E /* AFJSONRequestOperation.m */; };
-		F0E5F07A1802FE3E00A72687 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCCB15E9A8DA00B3713E /* AFJSONUtilities.m */; };
-		F0E5F07B1802FE3E00A72687 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCCD15E9A8DA00B3713E /* AFNetworkActivityIndicatorManager.m */; };
-		F0E5F07C1802FE3E00A72687 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCD015E9A8DA00B3713E /* AFPropertyListRequestOperation.m */; };
-		F0E5F07D1802FE3E00A72687 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCD215E9A8DA00B3713E /* AFURLConnectionOperation.m */; };
-		F0E5F07E1802FE3E00A72687 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCD415E9A8DA00B3713E /* AFXMLRequestOperation.m */; };
+		F0E5F0761802FE3E00A72687 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC315E9A8DA00B3713E /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F0E5F0771802FE3E00A72687 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC515E9A8DA00B3713E /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F0E5F0781802FE3E00A72687 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC715E9A8DA00B3713E /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F0E5F0791802FE3E00A72687 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC915E9A8DA00B3713E /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F0E5F07A1802FE3E00A72687 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCCB15E9A8DA00B3713E /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F0E5F07B1802FE3E00A72687 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCCD15E9A8DA00B3713E /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F0E5F07C1802FE3E00A72687 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCD015E9A8DA00B3713E /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F0E5F07D1802FE3E00A72687 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCD215E9A8DA00B3713E /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F0E5F07E1802FE3E00A72687 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCD415E9A8DA00B3713E /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F0E5F07F1802FE3E00A72687 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCD615E9A8DA00B3713E /* UIImageView+AFNetworking.m */; };
 /* End PBXBuildFile section */
 
