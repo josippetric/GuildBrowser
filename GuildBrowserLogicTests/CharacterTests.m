@@ -46,7 +46,7 @@
     XCTAssertNotNil(_testGuy, @"Could not create character from detail json");
     
     XCTAssertEqualObjects(_testGuy.thumbnail, @"borean-tundra/171/40508075-avatar.jpg", @"thumbnail url is wrong");
-    XCTAssertEqualObjects(_testGuy.name, @"Hagrel", @"name is wrong");
+    XCTAssertEqualObjects(_testGuy.name, @"Hegrel", @"name is wrong");
     XCTAssertEqualObjects(_testGuy.battleGroup, @"Emberstorm", @"battlegroup is wrong");
     XCTAssertEqualObjects(_testGuy.realm, @"Borean Tundra", @"realm is wrong");
     XCTAssertEqualObjects(_testGuy.achievementPoints, @3130, @"achievement points is wrong");
