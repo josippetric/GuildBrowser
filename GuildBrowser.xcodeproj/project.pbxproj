@@ -85,7 +85,7 @@
 		F0E5F07C1802FE3E00A72687 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCD015E9A8DA00B3713E /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F0E5F07D1802FE3E00A72687 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCD215E9A8DA00B3713E /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F0E5F07E1802FE3E00A72687 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCD415E9A8DA00B3713E /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F0E5F07F1802FE3E00A72687 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCD615E9A8DA00B3713E /* UIImageView+AFNetworking.m */; };
+		F0E5F07F1802FE3E00A72687 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCD615E9A8DA00B3713E /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
